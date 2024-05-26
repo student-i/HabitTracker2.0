@@ -15,9 +15,7 @@ namespace HabitTracker2._0
 
         public bool connect(string user, string password, string server)
         {
-            user = "root";
-            password = "1234home5678";
-            server = "localhost";
+
                 try
                 {
                     string credentials = $"server={server};user={user};database=habittrackerdb;port=3306;password={password}";
